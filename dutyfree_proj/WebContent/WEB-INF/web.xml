@@ -16,4 +16,11 @@
   		<taglib-location>/WEB-INF/tags</taglib-location>
   	</taglib>
   </jsp-config>
+  
+  <resource-ref>
+  	<description>Oracle Datasource example</description>
+  	<res-ref-name>jdbc/oracle</res-ref-name>
+  	<res-type>javax.sql.DataSource</res-type>
+  	 <res-auth>Container</res-auth>
+  </resource-ref>
 </web-app>
