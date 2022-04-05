@@ -1,10 +1,14 @@
 /* header design */
 #top_bar{
 	padding-top: 10px;
+	margin:0px auto;	
+	text-align:center;
 }
+
 #top_bar ul li{
 	display: inline-block;
 	vertical-align:middle;
+	text-align:center;
 }
 
 #top_bar ul li a{
@@ -33,12 +37,13 @@
 	background:#f2f4f7;
 }
 #searchBox{
-	width: 400px;
+	width: 450px;
     border-radius: 20px;
     border: 1px solid #bbb;
     margin: 0px 200px 10px 30px;
     padding: 0px 12px;
     background:#f2f4f7;
+    
 }
 
 .btn_search{
