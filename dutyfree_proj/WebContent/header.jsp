@@ -29,6 +29,7 @@ pageEncoding="UTF-8"%>
             />
           </li>
           <li>
+          <div id="searchBox">
             <form action="" method="GET">
               <input
                 type="search"
@@ -37,10 +38,9 @@ pageEncoding="UTF-8"%>
                 name="searchTerm"
                 id="basicSearchTerm"
               />
-
-      
               <button class="btn_search" onclick=""><i class="fa fa-search"></i></button>
             </form>
+            </div>
           </li>
           <li><a href="#">로그인</a></li>
           <li><a href="#">회원가입</a></li>

@@ -1,16 +1,51 @@
 /* header design */
+#top_bar{
+	padding-top: 10px;
+}
 #top_bar ul li{
 	display: inline-block;
-	
+	vertical-align:middle;
 }
+
 #top_bar ul li a{
 	text-decoration: none;
 	color: #5c6677;
 	font-weight: bold;
 	margin : 10px;
+	padding-top:20px;
 }
 
+#basicSearchTerm{
+	border: none;
+	width:360px;
+	margin: 0px;
+	height: 40px;	
+	background:#f2f4f7;
 
+}
+#basicSearchTerm:focus{
+	outline:none;
+	background:#f2f4f7;
+
+}
+#btn_search{
+	border: none;
+	background:#f2f4f7;
+}
+#searchBox{
+	width: 400px;
+    border-radius: 20px;
+    border: 1px solid #bbb;
+    margin: 0px 200px 10px 30px;
+    padding: 0px 12px;
+    background:#f2f4f7;
+}
+
+.btn_search{
+	background:#f2f4f7;	
+	border:none;
+	height: 40px;
+}
 
 /* footer design */
 #footer {
