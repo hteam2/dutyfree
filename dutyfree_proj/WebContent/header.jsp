@@ -7,7 +7,6 @@ pageEncoding="UTF-8"%>
     <meta charset="UTF-8" />
     <title>현대백화점면세점</title>
     <link href="css/shopping.css" rel="stylesheet" />
-
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
