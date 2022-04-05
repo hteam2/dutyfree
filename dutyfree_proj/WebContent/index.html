@@ -1,10 +1,66 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-</head>
-<body>
 
+<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+</head>
+
+<body>
+	<div id="slideShow">
+		<ul class="slides">
+			<li><img src="image/flower.jpg" alt=""></li>
+			<li><img src="image/fox.jpg" alt=""></li>
+			<li><img src="image/lightning.jpg" alt=""></li>
+			<li><img src="image/moon.jpg" alt=""></li>
+			<li><img src="image/nature.jpg" alt=""></li>
+			<li><img src="image/space.jpg" alt=""></li>
+		</ul>
+		<p class="controller">
+			<!-- &lang: 왼쪽 방향 화살표 &rang: 오른쪽 방향 화살표 --> <span class="prev">&lang;</span> <span class="next">&rang;</span>
+		</p>
+	</div>
 </body>
+
+<style>
+	.keyvisual-swiper .text1 p,
+	.keyvisual-swiper .text2 p {
+		font-weight: bold;
+		font-size: 46px;
+		line-height: 60px;
+		font-weight: 600;
+		text-shadow: 0 4px 10px rgb(0 0 0 / 50%);
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+	.keyvisual-swiper .text1 {
+		position: absolute;
+		top: 60px;
+		right: 120px;
+		left: 300px;
+		color: #fff;
+	}
+
+	.keyvisual-swiper .text2 {
+		position: absolute;
+		top: 60px;
+		right: 120px;
+		left: 1000px;
+		color: #fff;
+	}
+
+	.swiper-wrapper img {
+		width: 658px;
+		height: 658px;
+		max-width: 100%;
+		margin-right: 1%;
+	}
+
+	.swiper-wrapper {
+		margin-left: 13%;
+	}
+</style>
+
 </html>
