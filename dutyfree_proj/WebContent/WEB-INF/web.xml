@@ -9,4 +9,11 @@
     <welcome-file>default.jsp</welcome-file>
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
+  
+  <jsp-config>
+  	<taglib>
+  		<taglib-uri>http://java.sun.com/jsp/jstl/core</taglib-uri>
+  		<taglib-location>/WEB-INF/tags</taglib-location>
+  	</taglib>
+  </jsp-config>
 </web-app>
